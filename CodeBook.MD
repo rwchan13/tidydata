@@ -17,7 +17,12 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:
 'InXYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-Features are normalized and bounded within [-1,1].
+Features are normalized and bounded within [-1,1] and hence have no units.
+
+
+Tiding Up
+==================
+The training data and test data was combined into a single table. Only the mean and standard deviations of the measured variables were keep. Activity code were written out in english. Variables names were prettified for human readability. Finally, averages for all parameters were taken and groups using subject and activity as factors.
 
 Features
 ==================
