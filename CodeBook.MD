@@ -23,103 +23,103 @@ Features
 ==================
 The Dataset contains the following features.
 
- [1] "ActivityLabels" - 6 possible activities carried out in the experiment
- [2] "Subjects"- 30 anonymous subjects
+ * [1] "ActivityLabels" - 6 possible activities carried out in the experiment
+ * [2] "Subjects"- 30 anonymous subjects
 
  Mean and Standard Deviation of Body Acceleration in X, Y and Z.
 
- [3] "MeanOfTemporalBodyAccelerationInX"\\
- [4] "MeanOfTemporalBodyAccelerationInY"
- [5] "MeanOfTemporalBodyAccelerationInZ"
- [6] "StandardDeviationOfTemporalBodyAccelerationInX"
- [7] "StandardDeviationOfTemporalBodyAccelerationInY"
- [8] "StandardDeviationOfTemporalBodyAccelerationInZ"
+ * [3] "MeanOfTemporalBodyAccelerationInX"
+ * [4] "MeanOfTemporalBodyAccelerationInY"
+ * [5] "MeanOfTemporalBodyAccelerationInZ"
+ * [6] "StandardDeviationOfTemporalBodyAccelerationInX"
+ * [7] "StandardDeviationOfTemporalBodyAccelerationInY"
+ * [8] "StandardDeviationOfTemporalBodyAccelerationInZ"
 
 Mean and Standard Deviation of Gravitational Acceleration in X, Y and Z.
 
- [9] "MeanOfTemporalGravityAccelerationInX"
-[10] "MeanOfTemporalGravityAccelerationInY"
-[11] "MeanOfTemporalGravityAccelerationInZ"
-[12] "StandardDeviationOfTemporalGravityAccelerationInX"
-[13] "StandardDeviationOfTemporalGravityAccelerationInY"
-[14] "StandardDeviationOfTemporalGravityAccelerationInZ"
+* [9] "MeanOfTemporalGravityAccelerationInX"
+* [10] "MeanOfTemporalGravityAccelerationInY"
+* [11] "MeanOfTemporalGravityAccelerationInZ"
+* [12] "StandardDeviationOfTemporalGravityAccelerationInX"
+* [13] "StandardDeviationOfTemporalGravityAccelerationInY"
+* [14] "StandardDeviationOfTemporalGravityAccelerationInZ"
 
 Mean and Standard Deviation of Body Jerk in X, Y and Z.
 
 Note: Acceleration Jerk makes no sense physically.
-[15] "MeanOfTemporalBodyJerkInX"
-[16] "MeanOfTemporalBodyJerkInY"
-[17] "MeanOfTemporalBodyJerkInZ"
-[18] "StandardDeviationOfTemporalBodyJerkInX"
-[19] "StandardDeviationOfTemporalBodyJerkInY"
-[20] "StandardDeviationOfTemporalBodyJerkInZ"
+* [15] "MeanOfTemporalBodyJerkInX"
+* [16] "MeanOfTemporalBodyJerkInY"
+* [17] "MeanOfTemporalBodyJerkInZ"
+* [18] "StandardDeviationOfTemporalBodyJerkInX"
+* [19] "StandardDeviationOfTemporalBodyJerkInY"
+* [20] "StandardDeviationOfTemporalBodyJerkInZ"
 
 Mean and Standard Deviation of Angular Velocity in X, Y and Z.
 Note: Gyroscope is the instrument to measure angular velocity not the physical measurement.
 
-[21] "MeanOfTemporalBodyAngularVelocityInX"
-[22] "MeanOfTemporalBodyAngularVelocityInY"
-[23] "MeanOfTemporalBodyAngularVelocityInZ"
-[24] "StandardDeviationOfTemporalBodyAngularVelocityInX"
-[25] "StandardDeviationOfTemporalBodyAngularVelocityInX"
-[26] "StandardDeviationOfTemporalBodyAngularVelocityInZ"
+* [21] "MeanOfTemporalBodyAngularVelocityInX"
+* [22] "MeanOfTemporalBodyAngularVelocityInY"
+* [23] "MeanOfTemporalBodyAngularVelocityInZ"
+* [24] "StandardDeviationOfTemporalBodyAngularVelocityInX"
+* [25] "StandardDeviationOfTemporalBodyAngularVelocityInX"
+* [26] "StandardDeviationOfTemporalBodyAngularVelocityInZ"
 
 Mean and Standard Deviation of Angular Acceleration in X, Y and Z.
 
-[27] "MeanOfTemporalBodyAngularAccelerationInX"
-[28] "MeanOfTemporalBodyAngularAccelerationInY"
-[29] "MeanOfTemporalBodyAngularAccelerationInZ"
-[30] "StandardDeviationOfTemporalBodyAngularAccelerationInX"
-[31] "StandardDeviationOfTemporalBodyAngularAccelerationInY"
-[32] "StandardDeviationOfTemporalBodyAngularAccelerationInZ"
+* [27] "MeanOfTemporalBodyAngularAccelerationInX"
+* [28] "MeanOfTemporalBodyAngularAccelerationInY"
+* [29] "MeanOfTemporalBodyAngularAccelerationInZ"
+* [30] "StandardDeviationOfTemporalBodyAngularAccelerationInX"
+* [31] "StandardDeviationOfTemporalBodyAngularAccelerationInY"
+* [32] "StandardDeviationOfTemporalBodyAngularAccelerationInZ"
 
 Mean and Standard Deviations of magnitudes of all the previous measurements. In this case the Euclidean norm is use on the 3D parameters.
 
-[33] "MeanOfTemporalBodyAccelerationMagnitude"
-[34] "StandardDeviationOfTemporalBodyAccelerationMagnitude"
-[35] "MeanOfTemporalGravityAccelerationMagnitude"
-[36] "StandardDeviationOfTemporalGravityAccelerationMagnitude"
-[37] "MeanOfTemporalBodyJerkMagnitude"
-[38] "StandardDeviationOfTemporalBodyJerkMagnitude"
-[39] "MeanOfTemporalBodyAngularVelocityMagnitude"
-[40] "StandardDevationOfTemporalBodyAngularVelocityMagnitude"
-[41] "MeanOfTemporalBodyAngularVelocityMagnitude"
-[42] "StandardDevationOfTemporalBodyAngularVelocityMagnitude"
+* [33] "MeanOfTemporalBodyAccelerationMagnitude"
+* [34] "StandardDeviationOfTemporalBodyAccelerationMagnitude"
+* [35] "MeanOfTemporalGravityAccelerationMagnitude"
+* [36] "StandardDeviationOfTemporalGravityAccelerationMagnitude"
+* [37] "MeanOfTemporalBodyJerkMagnitude"
+* [38] "StandardDeviationOfTemporalBodyJerkMagnitude"
+* [39] "MeanOfTemporalBodyAngularVelocityMagnitude"
+* [40] "StandardDevationOfTemporalBodyAngularVelocityMagnitude"
+* [41] "MeanOfTemporalBodyAngularVelocityMagnitude"
+* [42] "StandardDevationOfTemporalBodyAngularVelocityMagnitude"
 
 Mean and Standard Deviation of Body Acceleration in frequency space for X, Y and Z.
 
-[43] "MeanOfFrequencyBodyAccelerationInX"
-[44] "MeanOfFrequencyBodyAccelerationInY"
-[45] "MeanOfFrequencyBodyAccelerationInZ"
-[46] "StandardDeviationOfFrequencyBodyAccelerationInX"
-[47] "StandardDeviationOfFrequencyBodyAccelerationInY"
-[48] "StandardDeviationOfFrequencyBodyAccelerationInZ"
+* [43] "MeanOfFrequencyBodyAccelerationInX"
+* [44] "MeanOfFrequencyBodyAccelerationInY"
+* [45] "MeanOfFrequencyBodyAccelerationInZ"
+* [46] "StandardDeviationOfFrequencyBodyAccelerationInX"
+* [47] "StandardDeviationOfFrequencyBodyAccelerationInY"
+* [48] "StandardDeviationOfFrequencyBodyAccelerationInZ"
 
 Mean and Standard Deviation of Body Jerk in frequency space for X, Y and Z.
 
-[49] "MeanOfFrequencyBodyJerkInX"
-[50] "MeanOfFrequencyBodyJerkInY"
-[51] "MeanOfFrequencyBodyJerkInZ"
-[52] "StandardDeviationOfFrequencyBodyJerkInX"
-[53] "StandardDeviationOfFrequencyBodyJerkInY"
-[54] "StandardDeviationOfFrequencyBodyJerkInZ"
+* [49] "MeanOfFrequencyBodyJerkInX"
+* [50] "MeanOfFrequencyBodyJerkInY"
+* [51] "MeanOfFrequencyBodyJerkInZ"
+* [52] "StandardDeviationOfFrequencyBodyJerkInX"
+* [53] "StandardDeviationOfFrequencyBodyJerkInY"
+* [54] "StandardDeviationOfFrequencyBodyJerkInZ"
 
 Mean and Standard Deviation of Angular Velocity in frequency space for X, Y and Z.
 
-[55] "MeanOfFrequencyBodyAngularVelocityInX"
-[56] "MeanOfFrequencyBodyAngularVelocityInX"
-[57] "MeanOfFrequencyBodyAngularVelocityInX"
-[58] "StandardDeviationOfFrequencyBodyAngularVelocityInX"
-[59] "StandardDeviationOfFrequencyBodyAngularVelocityInY"
-[60] "StandardDeviationOfFrequencyBodyAngularVelocityInZ"
+* [55] "MeanOfFrequencyBodyAngularVelocityInX"
+* [56] "MeanOfFrequencyBodyAngularVelocityInX"
+* [57] "MeanOfFrequencyBodyAngularVelocityInX"
+* [58] "StandardDeviationOfFrequencyBodyAngularVelocityInX"
+* [59] "StandardDeviationOfFrequencyBodyAngularVelocityInY"
+* [60] "StandardDeviationOfFrequencyBodyAngularVelocityInZ"
 
 Mean and Standard Deviations of magnitudes of all the previous measurements. In this case the Euclidean norm is use on the 3D parameters.
 
-[61] "MeanOfFrequencyBodyAccelerationMagnitude"
-[62] "StandardDeviationOfFrequencyBodyAccelerationMagnitude"
-[63] "MeanOfFrequencyBodyJerkMagnitude"
-[64] "StandardDeviationOfFrequencyBodyJerkMagnitude"
-[65] "MeanOfFrequencyBodyAngularVelocityMagnitude"
-[66] "StandardDevationOfFrequencyBodyAngularVelocityMagnitude"
-[67] "MeanOfTemporalBodyAngularVelocityMagnitude"
-[68] "StandardDevationOfTemporalBodyAngularVelocityMagnitude"
+* [61] "MeanOfFrequencyBodyAccelerationMagnitude"
+* [62] "StandardDeviationOfFrequencyBodyAccelerationMagnitude"
+* [63] "MeanOfFrequencyBodyJerkMagnitude"
+* [64] "StandardDeviationOfFrequencyBodyJerkMagnitude"
+* [65] "MeanOfFrequencyBodyAngularVelocityMagnitude"
+* [66] "StandardDevationOfFrequencyBodyAngularVelocityMagnitude"
+* [67] "MeanOfTemporalBodyAngularVelocityMagnitude"
+* [68] "StandardDevationOfTemporalBodyAngularVelocityMagnitude"
