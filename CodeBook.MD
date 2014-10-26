@@ -22,12 +22,10 @@ Features are normalized and bounded within [-1,1].
 Features
 ==================
 The Dataset contains the following features.
-
  * [1] "ActivityLabels" - 6 possible activities carried out in the experiment
  * [2] "Subjects"- 30 anonymous subjects
 
  Mean and Standard Deviation of Body Acceleration in X, Y and Z.
-
  * [3] "MeanOfTemporalBodyAccelerationInX"
  * [4] "MeanOfTemporalBodyAccelerationInY"
  * [5] "MeanOfTemporalBodyAccelerationInZ"
@@ -36,7 +34,6 @@ The Dataset contains the following features.
  * [8] "StandardDeviationOfTemporalBodyAccelerationInZ"
 
 Mean and Standard Deviation of Gravitational Acceleration in X, Y and Z.
-
 * [9] "MeanOfTemporalGravityAccelerationInX"
 * [10] "MeanOfTemporalGravityAccelerationInY"
 * [11] "MeanOfTemporalGravityAccelerationInZ"
@@ -45,7 +42,6 @@ Mean and Standard Deviation of Gravitational Acceleration in X, Y and Z.
 * [14] "StandardDeviationOfTemporalGravityAccelerationInZ"
 
 Mean and Standard Deviation of Body Jerk in X, Y and Z.
-
 Note: Acceleration Jerk makes no sense physically.
 * [15] "MeanOfTemporalBodyJerkInX"
 * [16] "MeanOfTemporalBodyJerkInY"
@@ -56,7 +52,6 @@ Note: Acceleration Jerk makes no sense physically.
 
 Mean and Standard Deviation of Angular Velocity in X, Y and Z.
 Note: Gyroscope is the instrument to measure angular velocity not the physical measurement.
-
 * [21] "MeanOfTemporalBodyAngularVelocityInX"
 * [22] "MeanOfTemporalBodyAngularVelocityInY"
 * [23] "MeanOfTemporalBodyAngularVelocityInZ"
@@ -65,7 +60,6 @@ Note: Gyroscope is the instrument to measure angular velocity not the physical m
 * [26] "StandardDeviationOfTemporalBodyAngularVelocityInZ"
 
 Mean and Standard Deviation of Angular Acceleration in X, Y and Z.
-
 * [27] "MeanOfTemporalBodyAngularAccelerationInX"
 * [28] "MeanOfTemporalBodyAngularAccelerationInY"
 * [29] "MeanOfTemporalBodyAngularAccelerationInZ"
@@ -74,7 +68,6 @@ Mean and Standard Deviation of Angular Acceleration in X, Y and Z.
 * [32] "StandardDeviationOfTemporalBodyAngularAccelerationInZ"
 
 Mean and Standard Deviations of magnitudes of all the previous measurements. In this case the Euclidean norm is use on the 3D parameters.
-
 * [33] "MeanOfTemporalBodyAccelerationMagnitude"
 * [34] "StandardDeviationOfTemporalBodyAccelerationMagnitude"
 * [35] "MeanOfTemporalGravityAccelerationMagnitude"
@@ -87,7 +80,6 @@ Mean and Standard Deviations of magnitudes of all the previous measurements. In 
 * [42] "StandardDevationOfTemporalBodyAngularVelocityMagnitude"
 
 Mean and Standard Deviation of Body Acceleration in frequency space for X, Y and Z.
-
 * [43] "MeanOfFrequencyBodyAccelerationInX"
 * [44] "MeanOfFrequencyBodyAccelerationInY"
 * [45] "MeanOfFrequencyBodyAccelerationInZ"
@@ -96,7 +88,6 @@ Mean and Standard Deviation of Body Acceleration in frequency space for X, Y and
 * [48] "StandardDeviationOfFrequencyBodyAccelerationInZ"
 
 Mean and Standard Deviation of Body Jerk in frequency space for X, Y and Z.
-
 * [49] "MeanOfFrequencyBodyJerkInX"
 * [50] "MeanOfFrequencyBodyJerkInY"
 * [51] "MeanOfFrequencyBodyJerkInZ"
@@ -105,7 +96,6 @@ Mean and Standard Deviation of Body Jerk in frequency space for X, Y and Z.
 * [54] "StandardDeviationOfFrequencyBodyJerkInZ"
 
 Mean and Standard Deviation of Angular Velocity in frequency space for X, Y and Z.
-
 * [55] "MeanOfFrequencyBodyAngularVelocityInX"
 * [56] "MeanOfFrequencyBodyAngularVelocityInX"
 * [57] "MeanOfFrequencyBodyAngularVelocityInX"
@@ -114,7 +104,6 @@ Mean and Standard Deviation of Angular Velocity in frequency space for X, Y and 
 * [60] "StandardDeviationOfFrequencyBodyAngularVelocityInZ"
 
 Mean and Standard Deviations of magnitudes of all the previous measurements. In this case the Euclidean norm is use on the 3D parameters.
-
 * [61] "MeanOfFrequencyBodyAccelerationMagnitude"
 * [62] "StandardDeviationOfFrequencyBodyAccelerationMagnitude"
 * [63] "MeanOfFrequencyBodyJerkMagnitude"
