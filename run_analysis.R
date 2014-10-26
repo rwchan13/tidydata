@@ -112,11 +112,9 @@ c("tBodyAcc-mean()-X"="MeanOfTemporalBodyAccelerationInX",
 "fBodyBodyGyroJerkMag-mean()"="MeanOfTemporalBodyAngularVelocityMagnitude",
 "fBodyBodyGyroJerkMag-std()"="StandardDevationOfTemporalBodyAngularVelocityMagnitude"))
 
-#Write Final Tidy Data
-write.table(final, 'final.txt', row.name=FALSE)
+namean <- function(x){mean(x, na.rm=TRUE)}
 
 #Write the aggregate (by Subject and Activity) means of Final Tidy Data
-agg_final <- aggregate(final, list(Subjects = final$Subjects,
-                                   ActivityLabels = final$ActivityLabels),
-                       mean)
-write.table(agg_final, 'agg_final.txt', row.name=FALSE)
+final <- aggregate(final[,-c(1,2)], list(ActivityLabels = final$ActivityLabels, Subjects = final$Subjects),
+                       namean)
+write.table(final, 'final.txt', row.name=FALSE)
